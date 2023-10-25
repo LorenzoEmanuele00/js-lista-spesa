@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.back {
+    background-image: url(../img/true-back-2.avif);
+    /* background-size: contain; */
+    background-repeat:repeat-y;
+}
+
+.space-left {
+    padding-left: 50px;
+}
+
+.space-right {
+    padding-right: 50px;
+}
+
+
+.line {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    padding-left: 40px;
+    padding-top: 20px;
+}
